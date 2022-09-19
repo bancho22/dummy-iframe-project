@@ -7,16 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Find button in iFrame below:
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <iframe src="https://platform.twitter.com/widgets/tweet_button.html" title="dummy-iframe" id="dummy-iframe-id" data-testid="dummy-iframe-testid"></iframe>
       </header>
     </div>
   );
